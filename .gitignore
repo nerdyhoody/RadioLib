@@ -19,3 +19,108 @@ build/
 
 # Compote build output
 dist
+
+
+
+
+# ## General ###
+#
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Static libraries
+*.lib
+*.a
+*.la
+
+# Compiled Shared libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# ## Visual Studio ###
+#
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.user.*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+ipch/
+*.[iI]pch/
+
+# Visual Studio Tooling
+.vs/
+*.tlog
+*.pdb
+*.pgc
+*.pgd
+*.ilk
+*.ipdb
+*.iobj
+*.exp
+*_i.c
+*_p.c
+
+# Other
+*.vcxproj.filters
+*.vcxproj.user
+*.aps
+*.ncb
+*~
+*.swp
+
+# ## CMake ###
+#
+# In-source builds
+CMakeCache.txt
+CMakeLists.txt.user
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Out-of-source builds
+build/
+**/build/
+.cache/
+
+# CMake packages
+Export/
+export/
+
+# CTest
+Testing/
+CTestTestfile.cmake
+
+# CPack
+_CPack_Packages/
